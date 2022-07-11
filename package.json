@@ -1,0 +1,14 @@
+{
+  "name": "ag-grid-css-assessment",
+  "version": "1.0.0",
+  "description": "ag-grid CSS Finkraft Assesment",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8080"
+  },
+  "author": "Baghina Radu Adrian (Finkraft)",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
