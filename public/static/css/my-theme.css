@@ -814,9 +814,9 @@ html:not(.layout-menu-collapsed) .bg-menu-theme .menu-inner .menu-item .menu-lin
 .ag-theme-alpine .ag-header-group-cell{ font-weight: 600; font-size: 18px;}
 .ag-theme-alpine .ag-header-cell{ font-size:13px;}
 .ag-status-name-value input[type="button"]{ color: #fff;
-    background: #696cff;
-    border-color: #696cff;  display: inline-block;
-    font-weight: 400;
+    background: #245081;
+    border:none;  display: inline-block;
+    font-weight: 600;
     line-height: 1.53;
     text-align: center;
     vertical-align: middle;
@@ -824,9 +824,9 @@ html:not(.layout-menu-collapsed) .bg-menu-theme .menu-inner .menu-item .menu-lin
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none; 
-    padding: 0.4375rem 1.25rem;
-    font-size: 0.9375rem;
-    border-radius: 0.375rem;
+    /*padding: 0.4375rem 1.25rem;*/
+    font-size: 0.7375rem;
+    border-radius: 0.275rem;
     transition: all 0.2s ease-in-out;
 } 
 .ag-theme-alpine .ag-filter-toolpanel .ag-filter-toolpanel-header{ color: #111;}
@@ -835,3 +835,62 @@ html:not(.layout-menu-collapsed) .bg-menu-theme .menu-inner .menu-item .menu-lin
     --ag-border-color: white;
 } 
  
+.ag-header-row.ag-header-row-column-group{ background: #fff; color:#111;}
+.ag-header-row.ag-header-row-column-group.ag-header-group-cell{ padding-left:0;}
+.ag-header-row.ag-header-row-column{ background: #245081; color:#fff;}
+.ag-header-row.ag-header-row-column-filter{ background:#e1e7ff; color:#111; border:none;}
+.ag-root{ border: 1px solid #ddd;}
+.ag-theme-alpine .ag-header{ background:none;}
+.ag-theme-mycustomtheme{ height: 650px;}/*-----static height-------*/
+.ag-theme-mycustomtheme .ag-theme-alpine{ height:100% !important;}
+.ag-header-row.ag-header-row-column-group .ag-header-cell-resize{ display:none;}
+.ag-theme-alpine .ag-icon{ font-size: 20px;}
+.btn-light:hover{ color: #fff; background-color: #5a83a6;}
+.ag-theme-alpine input[class^=ag-][type=text]{ border: 1px solid #749de6 !important;}
+.ag-theme-alpine .ag-header-cell.ag-header-active{ background:#7489dc;}
+.ag-theme-alpine .ag-header-cell.ag-header-active .ag-icon{ color:#fff;}
+.ag-header-row.ag-header-row-column-filter .ag-floating-filter-button{ margin-left: 5px;}
+.ag-theme-alpine .ag-tool-panel-wrapper{ width:200px;}
+
+.ag-theme-alpine .ag-column-drop-cell {
+  background-color: purple;
+}
+
+.ag-theme-alpine .ag-column-drop-cell .ag-icon {
+  color: white;
+}
+
+.ag-theme-alpine .ag-column-drop-cell-text {
+  color: white;
+  font-weight: bold;
+}
+
+.ag-theme-alpine {
+  --ag-control-panel-background-color: rgb(229 243 245);
+  --ag-side-button-selected-background-color: rgb(229 243 245);
+
+  --ag-selected-tab-underline-color: deeppink;
+  --ag-selected-tab-underline-width: 2px;
+  --ag-selected-tab-underline-transition-speed: 0.5s;
+
+  --ag-side-bar-panel-width: 300px;
+}
+
+.ag-theme-alpine .ag-filter-toolpanel-group-title-bar {
+  /* use a semi-transparent background to show the background colour behind */
+  background-color: rgb(255, 255, 255, 0.2);
+}
+.ag-theme-alpine button.ag-side-button-button{ border-top-right-radius: 10px; border-bottom-right-radius: 10px; background: #245081; color:#fff; margin:2px 0; font-size:14px; font-family:arial;}
+.ag-theme-alpine button.ag-side-button-button:hover, .ag-theme-alpine .ag-selected button.ag-side-button-button{ background: #ff1493; color:#fff;}
+.ag-theme-alpine .ag-ltr .ag-cell[col-id="Airline Name"]{ background: #fce2f0;}
+.ag-theme-alpine .ag-ltr .ag-row-odd .ag-cell[col-id="Airline Name"]{ background: #ffe5f2;}
+.ag-theme-alpine .ag-side-buttons{ padding-top: 94px;}
+.ag-theme-alpine .ag-ltr .ag-cell[col-id="Airline Name"] .ag-cell-value button[type="button"]{ float: right; margin: 5px;}
+.ag-tool-panel-wrapper dl dt{ font-weight:400; font-size: 16px;}
+.ag-tool-panel-wrapper dl dt b{ display:block; font-size:18px; color:#ff1493;}
+.ag-floating-filter-button button.ag-floating-filter-button-button{ background: #246a8b;
+    color: #fff; width:22px; height:22px;
+    padding: 1px; 
+    border-radius: 4px;}
+.ag-floating-filter-button button .ag-icon{ font-size: 16px;}
+.ag-theme-alpine .ag-status-name-value{ color: #111;}
